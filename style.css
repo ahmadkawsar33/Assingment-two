@@ -1,0 +1,281 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.banner{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    font-weight: 800;
+    color:#FFF;
+    
+}
+.banner-description{
+    font-weight: 800;
+    color:#FFF;
+}
+.field{
+    padding: 20px 10px;
+    width: auto;
+    height: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30)
+}
+.btn{
+    color: #FFF;
+    text-align: center;
+    background-color: tomato;
+}
+.our-popular-tour{
+    
+    margin-top: 100px;
+    display: flex;
+}
+.popular-tour-section-text{
+    background: #FFF;;
+    width: 50%;
+    height: auto;
+}
+.popular-tour-section-image{
+    width: 50%;
+    height: auto;
+    border-radius: 16px;
+}
+.destination-heading{
+    margin-top: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-row{
+    margin-top: 50px;
+    display: flex;
+    gap:5px;
+}
+.second-row{
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: 374px 474px 274px;
+    gap:10px
+}
+.third-row{
+margin-top:20px
+}
+.why-chose-section{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-first-row{
+    display: flex;
+    gap:10px;
+}
+.box{
+    width: 573px;
+    height: 284px;
+}
+#box-1{
+    border: 1px solid rgba(251, 181, 99,);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+#box-2{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+.icon{
+    height: 50px;
+}
+#box-3{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    margin: 20px auto 0;
+}
+.footer{
+    margin:0;
+    margin-top: 20px;
+    width: auto;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-section{
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trable{
+    color:#FF5400;
+}
+.footer-icon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+hr{
+    margin-top: 50px;
+}
+.copy{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:900px){
+    body{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .banner{
+        background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-repeat: no-repeat;
+        width: 1170px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-title{
+        font-weight: 800;
+        color:#FFF;
+        
+    }
+    .banner-description{
+        font-weight: 800;
+        color:#FFF;
+    }
+    .field{
+        padding: 20px 10px;
+        width: auto;
+        height: 20px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30)
+    }
+    .btn{
+        color: #FFF;
+        text-align: center;
+        background-color: tomato;
+    }
+    .our-popular-tour{
+        
+        margin-top: 100px;
+        display: flex;
+    }
+    .popular-tour-section-text{
+        background: #FFF;;
+        width: 50%;
+        height: auto;
+    }
+    .popular-tour-section-image{
+        width: 50%;
+        height: auto;
+        border-radius: 16px;
+    }
+    .destination-heading{
+        margin-top: 100px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-row{
+        margin-top: 50px;
+        display: flex;
+        gap:5px;
+    }
+    .second-row{
+        margin: 20px auto 0;
+        display: grid;
+        grid-template-columns: 374px 474px 274px;
+        gap:10px
+    }
+    .third-row{
+    margin-top:20px
+    }
+    .why-chose-section{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-first-row{
+        display: flex;
+        gap:10px;
+    }
+    .box{
+        width: 573px;
+        height: 284px;
+    }
+    #box-1{
+        border: 1px solid rgba(251, 181, 99,);
+        border-radius: 16px;
+        background: rgba(251, 181, 99, 0.05);
+    }
+    #box-2{
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        border-radius: 16px;
+        background: rgba(41, 206, 246, 0.05);
+    }
+    .icon{
+        height: 50px;
+    }
+    #box-3{
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        border-radius: 16px;
+        background: rgba(233, 68, 68, 0.05);
+        margin: 20px auto 0;
+    }
+    .footer{
+        margin:0;
+        margin-top: 20px;
+        width: auto;
+        height: 502px;
+        background: rgba(19, 19, 24, 0.05);
+    }
+    .footer-section{
+        padding-top: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .trable{
+        color:#FF5400;
+    }
+    .footer-icon{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+    hr{
+        margin-top: 50px;
+    }
+    .copy{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
